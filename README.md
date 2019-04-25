@@ -7,4 +7,4 @@ When you click on Login, you can login the system with username and password.
 
 3.All the Gif, Pictures and mp3 are in the folder named "images".
 
-4.Some Problems/To Do List.I was required to build an interesting data visualization. I have create database table in the Index.html, which is a simple dataset. And sometimes it has problem to show the result correctly. I will keep on thinking about this question.
+4.Some Problems/To Do List. I was required to build an interesting data visualization. I have create database table in the Index.html, which is a simple dataset. And sometimes it has problem to show the result correctly. I will keep on thinking about this question.
