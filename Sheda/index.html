@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title></title>
+
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+
+<script src="js/jquery.js"></script>
+
+<script src="js/popup.mini.js"></script>
+
+<script>
+
+$(function () {
+
+	var elm = $('#foot');
+
+	var startPos = 500;
+
+	$.event.add(window, "scroll", function () {
+
+		var p = $(window).scrollTop();
+
+		if (p > startPos) {
+
+			$("#w-scrol").show();
+
+		} else {
+
+			$("#w-scrol").hide();
+
+		}
+
+	});
+
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+<embed src="images/music.mp3" hidden ="true" autostart="true" loop="true">
+<section class="w-main">
+
+			<p class="w-main-p">If you are busy with job,housework, maybe we can play with your children for a while</p>
+
+			<div class="w-nav">
+
+				<a class="w-linkone" href="javascript:;"title="We are a government organization to help those parents who are busy with work. Accompanied children in the form of stories to help them developing cognition.">Who Are We</a>
+
+				<a class="w-linktwo" href="javascript:;"title="We have more than 3 stories in the world. You can choose the right reading according to your child's perferences. ">What We Have</a>
+
+				<a class="w-linkthree" href="javascript:;"title="Are we free? Yes">FAQ</a>
+
+				<a class="w-linkfour" href="javascript:;"title="If you have good idea. Welcome to join us.">Join Us</a>
+
+			</div>
+
+		</section>
+
+		<!--loginpop-->
+
+		<div class="popup-login">
+
+			<div class="popup-close"></div>
+
+			<div class="popup-title">
+
+				<span>Login</span>
+
+				<P>Login with your username and password.</P>
+
+			</div>
+
+			<ul class="popup-menu">
+
+				<li style="padding-top: 25px;">
+
+					<span>Username:</span>
+
+					<input type="text" class="w-name" name ="" id="" value="" />
+
+				</li>
+
+				<li>
+
+					<span><i>*</i>Password:</span>
+
+					<input type="text" class="w-name" name ="" id="" value="" />
+
+				</li>
+				<li>
+
+					<a button type="button" id="btn"  href="" class="w-subbtn">Login</a>
+
+				</li>
+			</ul>
+		</div>
+
+		<!--loginpop-->
+
+		<section class="w-main1">
+
+			<ul class="w-menu">
+
+				<li class="Spi"><a href="#w-main2"><span></span></a></li>
+
+				<li class="Cas"><a href="#w-main3"><span></span></a></li>
+
+				<li class="Nei"><a href="#w-main4"><span></span></a></li>
+
+				<li class="Pri"><a href="#w-main5"><span></span></a></li>
+
+			</ul>
+
+		</section>
+
+		<section class="w-main2" id="w-main2">
+
+			<div class="wrap1004">
+
+				<img src="images/Spr.gif" class="w-wide-pic" />
+
+				<div class="w-wide-text">
+
+					<span class="title">Spirited Away</span>
+
+
+					<p>
+In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) stumble upon a seemingly abandoned amusement park. After her mother and father are turned into giant pigs, Chihiro meets the mysterious Haku (Miyu Irino), who explains that the park is a resort for supernatural beings who need a break from their time spent in the earthly realm, and that she must work there to free herself and her parents.
+
+					</p>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="w-main3" id="w-main3">
+
+			<div class="wrap1004">
+
+				<div class="w-wide-text">
+
+					<span class="title">Castle in the Sky</span>
+
+
+					<p>
+Young orphan Sheeta and her kidnapper, Col. Muska, are flying to a military prison when their plane is attacked by a gang of air pirates led by the matronly Dola. Escaping from a mid-air collision via a magic crystal around her neck, Sheeta meets fellow orphan Pazu and the pair join forces to discover the mystical floating city of Laputa while pursued by both Muska and the pirates, who lust for the city's myriad treasures.
+
+					</p>
+
+				</div>
+
+				<img src="images/Cas.gif" class="w-wide-pic" />
+
+			</div>
+
+		</section>
+
+		<section class="w-main4" id="w-main4">
+
+			<div class="wrap1004">
+
+				<img src="images/Tot.gif" class="w-wide-pic" />
+
+				<div class="w-wide-text">
+
+					<span class="title">My Neighbor Totoro</span>
+
+
+					<p>
+
+						This acclaimed animated tale by director Hayao Miyazaki follows schoolgirl Satsuke and her younger sister, Mei, as they settle into an old country house with their father and wait for their mother to recover from an illness in an area hospital. As the sisters explore their new home, they encounter and befriend playful spirits in their house and the nearby forest, most notably the massive cuddly creature known as Totoro.
+
+					</p>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="w-main5" id="w-main5">
+
+			<div class="wrap1004">
+
+				<div class="w-wide-text">
+
+					<span class="title">Princess Mononoke</span>
+
+					<p>
+
+						In the 14th century, the harmony that humans, animals and gods have enjoyed begins to crumble. The protagonist, young Ashitaka - infected by an animal attack, seeks a cure from the deer-like god Shishigami. In his travels, he sees humans ravaging the earth, bringing down the wrath of wolf god Moro and his human companion Princess Mononoke. Hiskattempts to broker peace between her and the humans brings only conflict.
+
+					</p>
+
+				</div>
+
+				<img src="images/pri.gif" class="w-wide-pic" />
+
+			</div>
+
+		</section>
+
+
+		<footer class="foot" id="foot" >
+
+			<div id="w-scrol" style="display: none;">
+
+			<div class="f-title">Be Your Children's friend.</div>
+
+			<div class="w-naf" style=" width: 580px; margin-top: 20px;">
+
+				<a class="w-login" href="javascript:;">Login</a>
+
+
+			</div>
+
+			<P>Contact us: 61411758063</P>
+
+			</div>
+
+		</footer>
+	</body>
+
+    
+<script type="text/javascript">
+
+
+	var aInputs = document.getElementsByTagName('input');
+  
+
+                var oClear = document.getElementById('clear');
+
+               var db = openDatabase('LoginData', '1.0', 'textdb', '1024*1024');
+  
+
+        db.transaction(function(contex) {
+
+	 contex.executeSql('create table if not exists userinf (id unique,name,password)');
+   	 contex.executeSql('insert into userinf (id,name,password) values (1,"a","a")');
+  	 contex.executeSql('insert into userinf (id,name,password) values (2,"b","b")');
+        });
+
+        var oBtn = document.getElementById('btn');
+
+        var logstate = true;
+
+        oBtn.onclick = function() {
+
+            if (aInputs[0].value && aInputs[1].value) {
+
+                db.transaction(function(contex) {
+
+                    contex.executeSql('select * from userinf', [], function(con,results) {
+
+                        var len = results.rows.length, i;
+
+                        for ( var i = 0; i < len; i++) {
+
+                            if (aInputs[0].value == results.rows.item(i).name && aInputs[1].value == results.rows.item(i).password) {
+
+                                logstate = false;
+
+                                break;
+                            }
+                        }
+
+                        if (logstate) {
+
+                            alert('Wrong Username or Password！');
+
+                        } else {
+
+                            alert('successful！');
+                        }
+                    });
+                });
+
+            } else {
+
+                alert('Need Username or Password！！');
+            }
+        }
+
+        oClear.onclick = function() {
+
+            db.transaction(function(contex) {
+
+                contex.executeSql('drop table userinf');
+
+            });
+        }
+
+    </script>
+<script type='text/javascript'>
+
+	(function(){
+
+		 new PopUp_api({el:'.w-login',html:'.popup-login'});
+		
+	})()
+
+</script>
+
+</html>
+
